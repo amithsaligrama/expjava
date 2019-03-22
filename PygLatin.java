@@ -15,8 +15,6 @@ public class PygLatin {
 				word = word.toLowerCase();
 				first = word.substring(0,1);
 				rest = word.substring(1);
-				if (rest.substring(0,1).equals(" "))
-					rest = word.substring(2);
 				break;
 			}
 			catch (Exception e) {
