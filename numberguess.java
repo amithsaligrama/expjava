@@ -15,7 +15,6 @@ public class NumberGuess {
 				break;
 			}
 			catch (Exception e) {
-				System.out.println(e);
 				System.out.println("You gave me a bad value!");
 				System.out.print("Try again. ");
 			}
