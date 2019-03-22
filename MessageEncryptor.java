@@ -11,9 +11,11 @@ public class LetterReplacer {
 		System.out.print("Enter a message: ");
 		str = in.nextLine();
 		System.out.print("What is a sequence of characters you want to remove from your message (leave blank if you do not want to remove any characters)? ");
-		n = in.nextLine();
+		n = in.nextLine(); 
+		n = n.toLowerCase();
 		System.out.print("What do you want to replace that with (leave blank if you do not want to replace that string)? ");
 		m = in.nextLine();
+		m = m.toLowerCase();
 		replaced = str.replace(n, m);
 		in.close();
 		System.out.println("Here is your encrypted message: " + replaced);
