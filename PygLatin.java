@@ -13,7 +13,6 @@ public class PygLatin {
 		word = word.toLowerCase();
 		first = word.substring(0,1);
 		rest = word.substring(1);
-		break;
 		in.close();
 		String newWord = rest + first + pyg;
 		System.out.println("\nThis is your string ("+ word +") in pyglatin: " + newWord);
