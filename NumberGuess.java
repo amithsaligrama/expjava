@@ -60,11 +60,11 @@ public class NumberGuess {
 				System.out.print("Try again. ");
 			}
 		}
+		in.close();
 		int score = (max-min+1)/guesses;
 		int poss = max-min+1;
 		System.out.println("You found my number!!");
 		System.out.printf("You took %d guess(es).\n", guesses);
 		System.out.printf("You got a score of %d out of a possible %d.", score, poss);
-		in.close();
 	}
 }
