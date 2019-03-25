@@ -6,8 +6,17 @@ public class BinaryConverter {
 		String bin = "1010";
 		Scanner in = new Scanner(System.in);
 		System.out.print("Enter a base 10 integer to convert to binary: ");
-		num = in.nextInt();
-		bin = Integer.toBinaryString(num);
+		while (true) {
+			try {
+				num = Integer.parseInt(in.nextLine());
+				bin = Integer.toBinaryString(num);
+				break;
+			}
+			catch (Exception e) {
+				System.out.println("You gave me a bad value!");
+				System.out.print("Try again. ");
+			}
+		}
 		in.close();
 		System.out.println("\nThis is your integer ("+ num +") in binary: " + bin);
 	}
