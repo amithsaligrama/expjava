@@ -12,5 +12,5 @@ Encrypts your message however you want. Same as python lettereplacer but taken t
 Converts a decimal integer of your choice to binary. Same as python binaryconvertor.
 ## DecimaltoAnyBase
 Converts a decimal integer of your choice to any base of your choice. Same as python decimaltoanybase but is compatable with bases over 10.
-# GCFofTwo
+## GCFofTwo
 Finding the GCF of 2 integers using the Euclidean Algorithm.
